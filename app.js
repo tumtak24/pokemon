@@ -5,11 +5,11 @@
  	$stateProvider.state('wiki', {
  		url : "/:name",
  		templateUrl: function($stateParams) {
- 			return '/data/' + $stateParams.name;
+ 			return 'data/' + $stateParams.name;
  		},
  		controller : function ($timeout) {
  			// alert();
- 			$("html, body").scrollTop(0);
+ 			// $("html, body").scrollTop(0);
  		}
  	})
  });
