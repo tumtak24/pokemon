@@ -1,0 +1,18 @@
+{
+  "name": "go",
+  "version": "1.0.0",
+  "description": "http://www.ign.com/wikis/pokemon-go",
+  "main": "collector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies" : {
+  	"cheerio" : "*",
+  	"util" : "*",
+  	"fs" : "*",
+    "express"    : "latest",
+    "request"    : "latest"
+  }
+}
